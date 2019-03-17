@@ -2,49 +2,47 @@
 <html lang=eng>
 
 <head>
+    <meta charset="UTF-8">
     <title>Contact</title>
+    <link rel="stylesheet" href="/Users/trevormay/Desktop/Basic-Portfolio/assets/css/style.css" />
 </head>
 
 <body>
-    <div id="name">
+        
         <h1>Trevor May</h1>
-    </div>
-    <div class="nav">
-        <ol>
-            <li>
-                <a href="index.html">About</a>
-            </li>
-            <li>
-                <a href="portfolio.html">Portfolio</a>
-            </li>
-            <li>
-                <a href="contact.html">Contact</a>
-            </li>
-        </ol>
-    </div>
-    <div class="container">
-
-        <h2>Contact</h2>
-        <form action="/action_page.php">
-        <div id="namebox">
-            Name <br> <input type="text" placeholder="John Smith"><br>
+       
+            <ul>
+                
+                <li><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a><li>
+            </ul>       
+       
+      
+       
+    <div class="wrapper">
+        <div class="contact-box">
+            <h2>Contact</h2>
+            <form class="input-boxes">
+                <label>Name</label>
+                <br>
+                <input class="w3-input w3-border" placeholder="John Smith"><br>
+                <label>Email</label>
+                <br>
+                <input class="w3-input w3-border" placeholder="example@gmail.com"><br>
+                <label>Message</label>
+                <br>
+                <textarea class="w3-input w3-border" style="resize: none"></textarea>
+                <br>
+                <div id="submit">
+                    <input type="Submit" value="Submit">
+                </div>
+            </form>
         </div>
-        <div id="emailbox">
-            Email <br> <input type"text" name="Email"  placeholder="example@gmail.com"><br> 
-        </div>
-        <div id="messagebox">
-            Message <br> <input type"text" name"message" placeholder=" "><br>
-        </div>
-        <div id="submit">
-            <input type="Submit" value="Submit">
-        </div>
-        </form>
     </div>
-    <div class="footerbox">
-    <div id="footer">
-        Copyright &copy;
-    </div>
-    </div>
+   
 </body>
+<footer>Copyright &copy; Trevor May</footer>
+
 
 </html>
