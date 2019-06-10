@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bird Call</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <style> .container {align-content: center;}</style>
+</head>
+
+<body>
+
+    <div class="container text-center">
+        <div class="jumbotron">
+            <h1>Bird Call</h1>
+            <h3>Make your reservation</h3>
+            <hr>
+            <a href="/view"><button class="btn btn-primary btn-lg"><span class="fas fa-search"></span> View Tables</button></a>
+            <a href="/"><button class="btn btn btn-lg"><span class="fas fa-home"></span></button></a>
+    </div>
+    <div class="row">
+
+        <div class="col-lg-12">
+
+            <div class="card mb-4">
+                <div class="card-header">
+                    <strong>Table Reservations</strong>
+                </div>
+                <div class="card-body">
+                    <input type="text" id="reservation-search" class="form-control">
+                    <br>
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script type="text/javascript">
+    // this will go into view.html page
+$.get("/api/reservations" , function(data) {
+   console.log(data);
+   if (data) {
+       for(i=0; i<data.length; i++){
+           var reservationHost = $("<div>");
+           var p1 = $("<p>");
+           p1.text = (data[i].routeName);
+           p2.text = (data[i].partyNumber);
+           p3.text = (data[i].phoneNumber);
+           reservationHost.append(p1);
+           reservationHost.append(p2);
+           reservationHost.append(p3);
+           $("#reservation-section").append(reservationHost);
+       }
+   }
+});
+    </script>
+</body>
+
+</html>
