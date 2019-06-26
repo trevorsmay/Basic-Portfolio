@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Friend Finder</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery.js"></script>
+</head>
+<body>
+<div class="container">
+    <h1>Survey Questions</h1>
+    <hr>
+    <h2>About You</h2>
+    <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+          </div>
+          <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroup-sizing-default">Link to photograph</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+              </div>
+    <hr>
+    <div class="form-group">
+            <label for="question1">How much do you like the Lord of the Rings?</label>
+            <select class="form-control" id="question1">
+              <option value="none"></option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+          </select>
+        </div>
+          <div class="form-group">
+            <label for="question2">How much do you like the NFL?</label>
+            <select class="form-control" id="question2">
+              <option value="none"></option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+              <div class="form-group">
+                  <label for="question3">How important is physical activity?</label>     
+                  <select class="form-control" id="question3">
+                    <option value="none"></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                        <label for="question4">How much do you like fly fishing?</label>
+                        <select class="form-control" id="question4">
+                            <option value="none"></option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          </select>
+                      </div>
+                      <div class="form-group">
+                            <label for="question5">How important is time in nature to you?</label>
+                            <select class="form-control" id="question5">
+                                <option value="none"></option>
+                             <option value="1">1</option>
+                             <option value="2">2</option>
+                             <option value="3">3</option>
+                             <option value="4">4</option>
+                             <option value="5">5</option>
+                           </select>
+                          </div>
+                          <div class="form-group">
+                               <label for="question6">How adventurous are you?</label>
+                               <select class="form-control" id="question6">
+                                  <option value="none"></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                              </select>
+                              </div>
+                              <div class="form-group">
+                                  <label for="question7">How much do you like dogs?</label>     
+                                  <select class="form-control" id="question7">
+                                      <option value="none"></option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    </select>
+                                  </div>
+                                  <div class="form-group">
+                                      <label for="question8">How important is pondering the intricacies of life to you?</label>
+                                      <select class="form-control" id="question8">
+                                          <option value="none"></option>
+                                       <option value="1">1</option>
+                                       <option value="2">2</option>
+                                       <option value="3">3</option>
+                                       <option value="4">4</option>
+                                       <option value="5">5</option>
+                                     </select>
+                                      </div>
+                                      <div class="form-group">
+                                          <label for="question9">How would you rate pop music?</label>
+                                          <select class="form-control" id="question9">
+                                              <option value="none"></option>
+                                           <option value="1">1</option>
+                                           <option value="2">2</option>
+                                           <option value="3">3</option>
+                                           <option value="4">4</option>
+                                           <option value="5">5</option>
+                                         </select>
+                                          </div>
+                                          <div class="form-group">
+                                              <label for="question10">Do you easily become angered by traffic?</label>
+                                              <select class="form-control" id="question10">
+                                                  <option value="none"></option>
+                                               <option value="1">1</option>
+                                               <option value="2">2</option>
+                                               <option value="3">3</option>
+                                               <option value="4">4</option>
+                                               <option value="5">5</option>
+                                             </select>
+                                              </div>
+                                              <br>
+                                              <br>
+                                              <button type="button" class="btn btn-secondary">Submit Answers</button>
+                                            
+
+</div>
+<script>
+    $(document).ready(function() {
+        $("#button").on("click", function(event) {
+          event.preventDefault();
+
+          
+        })
+    })
+</script>
+</body>
+
+</html>
