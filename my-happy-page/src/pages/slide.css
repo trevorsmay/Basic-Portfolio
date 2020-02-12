@@ -1,0 +1,65 @@
+.top {
+    margin-top: 30px;
+}
+
+.cr-beach {
+    border: 2px solid slategray;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.arches-road {
+    border: 2px solid slategray;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.crested-butte {
+    border: 2px solid slategray;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.ca-beach {
+    border: 2px solid slategray;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.moab-road {
+    border: 2px solid slategray;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.monarch-pass {
+    border: 2px solid slategray;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.montana-road {
+    border: 2px solid slategray;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.mystic-island {
+    border: 2px solid slategray;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+.top {
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 1200px;
+}
