@@ -13,12 +13,12 @@ function About() {
       {/* https://i.imgur.com/qkdpN.jpg */}
       <Hero backgroundImage={backgroundImage}>
         <h1>My Happy Page</h1>
-        
+        <h2>By Trevor May</h2>
       </Hero>
       <Container style={{ marginTop: 30 }}>
         <Row>
           <Col size="md-12">
-            <h1>When things are tough, look at a pup or some nature!</h1>
+            <h1>When things are tough, look at some nature!</h1>
           </Col>
         </Row>
         <Row>
